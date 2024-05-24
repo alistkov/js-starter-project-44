@@ -7,3 +7,6 @@
 
 ## Brain calc game
 [![asciicast](https://asciinema.org/a/wWIqmpJPYcTJlZf02ppM2lWNP.svg)](https://asciinema.org/a/wWIqmpJPYcTJlZf02ppM2lWNP)
+
+## Brain the greatest common divisor game
+[![asciicast](https://asciinema.org/a/ybEGsKqKmIk6ZezEea49D1xCS.svg)](https://asciinema.org/a/ybEGsKqKmIk6ZezEea49D1xCS)
