@@ -1,9 +1,8 @@
 import runGame from '../index.js';
-
-const generateNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const isEven = (number) => number % 2 === 0;
+import { generateNumber, isEven } from '../utils.js';
 
 const DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".';
+
 const evenGame = () => {
   const randomNumber = generateNumber(1, 100);
   const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
