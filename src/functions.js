@@ -15,3 +15,10 @@ export const calculateResult = (firstNumber, secondNumber, operation) => {
       return 'Unknown operation';
   }
 };
+
+export const getGdc = (a, b) => {
+  if (b === 0) {
+    return a;
+  }
+  return getGdc(b, a % b);
+};
