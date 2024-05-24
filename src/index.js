@@ -9,7 +9,7 @@ const runGame = (game, description) => {
   console.log(description);
 
   for (let i = 1; i <= STEPS; i += 1) {
-    const [question, correctAnswer] = game();
+    const { question, correctAnswer } = game();
     console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (correctAnswer !== answer) {

@@ -12,7 +12,10 @@ const calcGame = () => {
   const question = `${firstNumber} ${operation} ${secondNumber}`;
   const correctAnswer = calculateResult(firstNumber, secondNumber, operation);
 
-  return [question, String(correctAnswer)];
+  return {
+    question,
+    correctAnswer: String(correctAnswer),
+  };
 };
 
 export default () => {

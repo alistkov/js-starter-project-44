@@ -9,7 +9,10 @@ const gdcGame = () => {
   const correctAnswer = getGdc(firstNumber, secondNumber);
   const question = `${firstNumber} ${secondNumber}`;
 
-  return [question, String(correctAnswer)];
+  return {
+    question,
+    correctAnswer: String(correctAnswer),
+  };
 };
 
 export default () => {

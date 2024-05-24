@@ -7,7 +7,10 @@ const evenGame = () => {
   const randomNumber = generateNumber(1, 100);
   const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
 
-  return [randomNumber, correctAnswer];
+  return {
+    question: randomNumber,
+    correctAnswer,
+  };
 };
 
 export default () => {
