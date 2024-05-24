@@ -1,5 +1,5 @@
 import runGame from '../index.js';
-import { generateNumber, calculateResult } from '../utils.js';
+import { generateNumber, calculateResult } from '../functions.js';
 
 const DESCRIPTION = 'What is the result of the expression?';
 const OPERATIONS = ['+', '-', '*'];

@@ -1,5 +1,5 @@
 import runGame from '../index.js';
-import { generateNumber, isEven } from '../utils.js';
+import { generateNumber, isEven } from '../functions.js';
 
 const DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".';
 
