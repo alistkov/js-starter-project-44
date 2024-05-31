@@ -14,7 +14,7 @@ const progressionGame = () => {
     progression.push(element);
   }
 
-  const index = generateNumber(0, progressionLength - 1);
+  const index = generateNumber(1, progressionLength - 2);
   const correctAnswer = progression[index];
   progression[index] = '..';
 
