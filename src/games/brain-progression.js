@@ -19,7 +19,7 @@ const progressionGame = () => {
   progression[index] = '..';
 
   return {
-    question: progression.join(', '),
+    question: progression.join(' '),
     correctAnswer: String(correctAnswer),
   };
 };
